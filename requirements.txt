@@ -1,0 +1,49 @@
+# Fleet Management Pipeline Dependencies
+# Core Data Engineering Stack
+
+# Apache Airflow and Extensions
+apache-airflow==2.5.1
+apache-airflow-providers-amazon==7.2.1
+great-expectations-provider==0.2.8
+
+# Data Processing and ML
+pandas==1.5.3
+numpy==1.24.2
+scipy==1.10.1
+great-expectations==0.15.41
+
+# AWS Integration
+boto3==1.26.76
+botocore==1.29.76
+s3fs==2023.3.0
+
+# Template Generation
+jinja2==3.1.2
+pyyaml==6.0
+
+# Data Quality and Validation
+pydantic==1.10.6
+jsonschema==4.17.3
+
+# Development and Testing
+pytest==7.2.2
+pytest-mock==3.10.0
+black==23.1.0
+flake8==6.0.0
+
+# Monitoring and Logging
+structlog==23.1.0
+prometheus-client==0.16.0
+
+# Jupyter for Analysis
+jupyter==1.0.0
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Database Connectivity
+psycopg2-binary==2.9.5
+sqlalchemy==1.4.46
+
+# Documentation
+mkdocs==1.4.2
+mkdocs-material==9.1.1 
